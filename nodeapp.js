@@ -1,2 +1,7 @@
-let aloha = 'Hey, Aloha';
-console.log(aloha);
+const express = require('express');
+const app = express();
+const port = 3000;
+
+app.listen(port, function(err){
+    console.log('Server is running on port '+ port);
+});
